@@ -1,0 +1,84 @@
+.singleProduct {
+  position: relative;
+}
+.productImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.spTop {
+  position: relative;
+  height: 270px;
+  width: 100%;
+  transition: 0.3s ease all;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.spHoverBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease all;
+}
+
+.spTop:hover .spHoverBox {
+  top: 0;
+}
+
+.productName {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+}
+
+.productPrice {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.spBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.spHoverBox .spHoverCollection {
+  display: flex;
+  align-items: center;
+}
+
+.spHoverBox .spHoverCollection li {
+  margin-right: 15px;
+}
+
+.spHoverBox .spHoverCollection li:last-child {
+  margin-right: 0;
+}
+
+.spHoverBox .spHoverCollection li a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fff;
+  transition: 0.3s ease all;
+}
+
+.spHoverBox .spHoverCollection li a:hover {
+  background: #fff;
+  color: #fd8b5f;
+}

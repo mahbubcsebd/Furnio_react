@@ -1,13 +1,379 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*-----------------------------------------------------------------------------
+
+    Template Name: Furio - Furniture Online store HTML 5 Template
+    Template URI:
+    Description:
+    Author: Devsarray
+    Author URI:  https://themeforest.net/user/devsarray
+    Version: 1.0.2
+
+----------------------------------------------------------------------------- */
+
+/*
+*  CSS TABLE OF GLOBAL CONTENTS
+1.0 - Variables Start
+2.0 - Reset Start
+3.0 - Typography Start
+4.0 - Utility Start
+5.0 - Scroll To Top Start
+6.0 - Button Start
+7.0 - Navbar Start
+8.0 - Hero Start
+9.0 - About Event Start
+10.0 - Meet Our Speaker Start
+11.0 - Pricing Section Start
+12.0 - Event Schedule Start
+13.0 - Services Counter Sectiom Start
+14.0 - Memories Section Start
+15.0 - Sponsor Section Start
+16.0 - Home Blog Section Start
+17.0 - Seat Booking Section Start
+18.0 - Footer Section Start
+19.0 - Join Event Start
+20.0 - Banner Section Start
+21.0 - Blog Page Start
+22.0 - Blog Details Start
+23.0 - Author Section Start
+24.0 - Comment Section Start
+25.0 - Post Section Start
+26.0 - Contact Us Section Start
+27.0 - Google Map Section Start
+28.0 - Contact Us Form Section Start
+*/
+
+/*----------------------------------------------------------------------------
+    1.0 - Variables Start
+ ----------------------------------------------------------------------------*/
+:root {
+  --primaryColor: hsl(175, 84%, 23%);
+  --secondaryColor: #fd8b5f;
+  --textColor: #2b2c34;
+  --textColorTwo: #4a4a4a;
+
+  /* Alerts */
+  --successColor: #37c675;
+  --LinkColor: #3eaeff;
+  --warningColor: #ff9700;
+  --errorColor: #fe5050;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*----------------------------------------------------------------------------
+    Variables End
+ ----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+    2.0 - Reset Start
+ ----------------------------------------------------------------------------*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: #fff;
+  color: #4d4d4d;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+.body-2 {
+  background: #f9fff2;
+}
+
+body,
+ul,
+ol,
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+article,
+aside,
+audio,
+footer,
+header,
+nav,
+section,
+video {
+  display: block;
+}
+
+/*----------------------------------------------------------------------------
+    Reset End
+ ----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+    3.0 - Typography Start
+ ----------------------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Darker Grotesque', sans-serif;
+  color: #1d1d1d;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 65px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 65px;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h5 {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+h6 {
+  font-size: 20px;
+  line-height: 20px;
+}
+
+p {
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  margin: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #2d2d2d;
+}
+span {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+small {
+  font-family: 'Darker Grotesque', sans-serif;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+i {
+  font-family: 'Font Awesome 6 Free';
+}
+
+a:hover {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+button:focus {
+  outline: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  padding: 0.5rem;
+}
+
+img {
+  border: none;
+  max-width: 100%;
+}
+
+.mobile-show {
+  display: none;
+}
+
+.img-bg {
+  /* background-image: url("../img/img-bg.png"); */
+  background-size: fill;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.sbg {
+  background-color: #fafafa;
+}
+
+input[type='submit']::-moz-focus-inner,
+input[type='button']::-moz-focus-inner {
+  border: 0px;
+}
+
+sub,
+sup {
+  line-height: 0;
+}
+
+/* Flex */
+.flex-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-justify {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.flex-align {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+.section-title-left {
+  font-family: Darker Grotesque;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 65px;
+  letter-spacing: 0em;
+  margin-bottom: 30px;
+}
+
+/*----------------------------------------------------------------------------
+  Typography End
+ ----------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------
+    4.0 - Utility Start
+ ----------------------------------------------------------------------------*/
+.sp-80 {
+  padding: 80px 0;
+}
+
+.spb-80 {
+  padding-bottom: 80px;
+}
+
+.spt-80 {
+  padding-top: 80px;
+}
+.cmt-100 {
+  margin-top: 120px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+/*----------------------------------------------------------------------------
+    Utility End
+ ----------------------------------------------------------------------------*/
+
+
+ /*----------------------------------------------------------------------------
+    Button Start
+ ----------------------------------------------------------------------------*/
+.btnPrimary {
+  border: 1px solid var(--primaryColor);
+  background: var(--primaryColor);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btnPrimary:hover {
+  background: transparent;
+}
+
+.btnSecondary {
+  border: 1px solid var(--secondaryColor);
+  background: var(--secondaryColor);
+  color: #fff;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 32px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btnSecondary:hover {
+  background: transparent;
+}
+
+/*----------------------------------------------------------------------------
+    Button End
+ ----------------------------------------------------------------------------*/
+
+.sectionTopTitle {
+  margin-bottom: 50px;
+  text-transform: capitalize;
 }

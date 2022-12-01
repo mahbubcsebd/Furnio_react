@@ -1,0 +1,175 @@
+.footerArea {
+  background: #032220;
+  padding-top: 100px;
+}
+
+.footerLeft p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.footerLogo {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.footerSocial {
+  display: flex;
+  align-items: center;
+}
+
+.footerSocial li {
+  margin-right: 15px;
+}
+
+.footerSocial li:last-child {
+  margin-right: 0;
+}
+
+.footerSocial li a {
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s ease all;
+}
+
+.footerSocial li a:hover {
+  color: var(--secondaryColor);
+}
+
+.footerTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: "Darker Grotesque";
+  margin-bottom: 35px;
+}
+
+.footerLinkollection li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+.footerLinkCollection li a:hover {
+  opacity: 1;
+}
+
+.footerLinkCollection li {
+  line-height: 35px;
+  color: #fff !important;
+}
+
+.footerLinkCollection li a {
+  color: #fff !important;
+}
+
+.footerRightContent p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.footerEmail .form-control {
+  width: 70%;
+  height: auto;
+  padding: 16px;
+  color: #495057;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+.footerEmail .form-control:focus {
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.footerSubscriptionBtn {
+  background: transparent;
+  color: #fff;
+  padding: 16px;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.footerSubscriptionBtn:hover {
+  background: var(--secondaryColor);
+  border-color: var(--secondaryColor);
+}
+
+.footerEmail {
+  display: flex;
+  align-items: center;
+}
+
+.fullLine {
+  position: relative;
+  border-top: 1px solid #fff;
+  padding: 0 20px;
+  margin-top: 60px;
+}
+
+.footerBottomLeft p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.footerBottomArea {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.footerBottomRight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paymentCollection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerBottomRight p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.paymentCollection li {
+  margin-right: 15px;
+}
+
+.paymentCollection li img {
+  width: 38px;
+}

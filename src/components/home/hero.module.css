@@ -1,0 +1,31 @@
+ .heroSection {
+   height: auto;
+   background: #feffd8;
+   padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.heroLeft, .heroRight {
+  height: 100%;
+  position: relative;
+}
+
+.heroTitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  text-transform: capitalize;
+  color: #03221f;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+}
+
+.heroText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 25px;
+  font-family: "Raleway";
+  width: 320px;
+}

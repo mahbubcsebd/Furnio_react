@@ -1,0 +1,57 @@
+.counterArea {
+  margin-top: 140px;
+}
+
+
+.counterMainImg {
+  border-radius: 50%;
+}
+
+.counterLeft {
+  position: relative;
+  width: 75%;
+}
+
+.counterSmImg {
+  position: absolute;
+  content: "";
+  right: -65px;
+  bottom: 5px;
+}
+
+.counterNum {
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+
+.counterTitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: capitalize;
+}
+
+.counterContentBox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.singleServiceCounter {
+  margin-right: 20px;
+  width: 85px;
+}
+
+.counterRightText {
+  margin: 25px 0;
+}
+
+.latest-arival-area h2 {
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
