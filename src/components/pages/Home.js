@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../Footer';
 import AboutUs from '../home/AboutUs';
 import Arival from '../home/Arival';
 import Counter from '../home/Counter';
@@ -18,7 +17,6 @@ const Home = () => {
       <PopularItem/>
       <HomeBlog/>
       <Discount/>
-      <Footer/>
     </div>
   )
 }

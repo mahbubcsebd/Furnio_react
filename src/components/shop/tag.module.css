@@ -1,0 +1,31 @@
+.tagTitle{
+    font-size: 25px;
+    color: #2d2d2d;
+    font-family: 'Sen';
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.tagCollection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tagCollection li {
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+.tagCollection li button{
+    display: inline-block;
+    color: #424242;
+    border-radius: 5px;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    border: 0;
+    background: transparent;
+}

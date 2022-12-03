@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
-import blogs from '../blogData';
-import SingleBlog from '../SingleBlog';
+import blogs from '../../constants/blogData';
+import SingleBlog from '../global/SingleBlog';
 
 const HomeBlog = () => {
   return (

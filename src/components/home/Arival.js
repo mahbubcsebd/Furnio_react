@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
-import products from '../productsData';
-import SingleProduct from '../SingleProduct';
+import products from '../../constants/productsData';
+import SingleProduct from '../global/SingleProduct';
 
 const Arival = () => {
   return (

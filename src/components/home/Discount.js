@@ -7,7 +7,7 @@ import style from './discount.module.css';
 const Discount = () => {
   return (
     <section
-      className={style.discountArea}
+      className={`${style.discountArea} mb-0`}
       style={{ backgroundImage: `url(${discountBg})` }}
     >
       <Container>
@@ -16,7 +16,7 @@ const Discount = () => {
             Get 10% Off in your fast order
           </h2>
 
-          <BtnSecondary title="shop now" />
+          <BtnSecondary title="shop now" url="/shop" />
         </div>
       </Container>
     </section>

@@ -1,0 +1,48 @@
+.productFilterBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.filterLeft {
+  display: flex;
+  align-items: center;
+}
+
+.filterLeft p {
+    font-family: 'Darker Grotesque';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #424242;
+}
+
+.filterBtn {
+  border: 0;
+  background: transparent;
+  margin-right: 50px;
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #2E2E2A;
+}
+
+.productSorting {
+  border: 0;
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #424242;
+}
+
+.productSorting:focus {
+    box-shadow: none;
+}

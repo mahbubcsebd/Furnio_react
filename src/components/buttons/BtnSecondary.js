@@ -1,16 +1,18 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-const BtnSecondary = ({title,icon}) => {
+const BtnSecondary = ({ title, icon, url }) => {
+  const navigate = useNavigate();
   return (
-    <a
-      href="shop.html"
+    <button
       className="btnSecondary"
+      onClick={() => {
+        navigate(`${url}`);
+      }}
     >
-      {`${title} ` }
-      <span className="ml-2">
-        {icon}
-      </span>
-    </a>
+      {`${title} `}
+      <span className="ml-2">{icon}</span>
+    </button>
   );
 };
 

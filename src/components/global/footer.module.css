@@ -87,8 +87,8 @@
   margin-bottom: 10px;
 }
 
-.footerEmail .form-control {
-  width: 70%;
+.footerEmail .formControl {
+  width: 75%;
   height: auto;
   padding: 16px;
   color: #495057;
@@ -96,7 +96,7 @@
   border-radius: 0;
 }
 
-.footerEmail .form-control:focus {
+.footerEmail .formControl:focus {
   background-color: #fff;
   box-shadow: none;
 }
@@ -137,9 +137,10 @@
 }
 
 .footerBottomArea {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .footerBottomRight {
@@ -168,6 +169,10 @@
 
 .paymentCollection li {
   margin-right: 15px;
+}
+
+.paymentCollection li:last-child {
+  margin-right: 0;
 }
 
 .paymentCollection li img {

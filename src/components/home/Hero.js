@@ -19,7 +19,7 @@ const Hero = () => {
                 Aliquet sagittis id consectetur purus ut faucibus pulvinar
                 elementum. Nulla facilisi morbi tempus iaculis.
               </p>
-              <BtnPrimary title="shop now" icon={<AiOutlineArrowRight />}/>
+              <BtnPrimary title="shop now" icon={<AiOutlineArrowRight />} url="/shop"/>
             </div>
           </Col>
           <Col md={6}>

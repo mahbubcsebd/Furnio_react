@@ -1,0 +1,17 @@
+.categoryTitle {
+  font-size: 25px;
+  color: #2d2d2d;
+  font-family: 'Sen';
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.catCollecection li p {
+  font-family: 'Darker Grotesque';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #424242;
+}

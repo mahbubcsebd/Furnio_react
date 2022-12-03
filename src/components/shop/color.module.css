@@ -1,0 +1,60 @@
+.colorTitle {
+  font-size: 25px;
+  color: #2d2d2d;
+  font-family: 'Sen';
+  font-weight: 800;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.colorChoice {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.colorCollection li {
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.colorCollection li button {
+  border: 0;
+}
+
+.colorCollection li:last-child {
+  padding-right: 0px;
+}
+
+.colorCollection li:first-child button {
+  background: #b18d6b;
+}
+
+.colorCollection li:nth-child(2) button {
+  background: #509da8;
+}
+
+.colorCollection li:nth-child(3) button {
+  background: #7852b7;
+}
+
+.colorCollection li:nth-child(4) button {
+  background: #ba9a47;
+}
+
+.colorCollection li:nth-child(5) button {
+  background: #ff29bf;
+}
+
+.colorCollection li:nth-child(6) button {
+  background: #ff7e4e;
+}
+
+.colorCollection li:nth-child(7) button {
+  background: #2b0d02;
+}
+
+.colorCollection li:nth-child(8) button {
+  background: #929292;
+}

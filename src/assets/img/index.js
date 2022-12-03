@@ -1,4 +1,4 @@
-import errImg from './404.jpg';
+import { default as errImg, default as errorImg } from './404.jpg';
 import aboutAuthor from './about-author-img.png';
 import aboutLg1 from './about-lg-1.jpg';
 import aboutLg2 from './about-lg-2.jpg';
@@ -16,6 +16,18 @@ import counterMain from './counter-main-img.jpg';
 import counterSm from './counter-sm.png';
 import discountBg from './discount-bg.jpg';
 import heroImg from './hero-img.png';
+import insta1 from './instgram-1.jpg';
+import insta2 from './instgram-2.jpg';
+import insta3 from './instgram-3.jpg';
+import insta4 from './instgram-4.jpg';
+import insta5 from './instgram-5.jpg';
+import insta6 from './instgram-6.jpg';
+import logo from './Logo.svg';
+import logo2 from './Logo2.svg';
+import payment1 from './payment-1.png';
+import payment2 from './payment-2.png';
+import payment3 from './payment-3.png';
+import payment4 from './payment-4.png';
 import product1 from './product-1.jpg';
 import product10 from './product-10.jpg';
 import product11 from './product-11.jpg';
@@ -31,9 +43,12 @@ import product9 from './product-9.jpg';
 import provide1 from './provide-1.svg';
 import provide2 from './provide-2.svg';
 import provide3 from './provide-3.svg';
+import bannerBg from './top-banner.jpg';
 
 
 export {
+    logo2,
+    bannerBg,
     heroImg,
     errImg,
     aboutAuthor,
@@ -67,4 +82,16 @@ export {
     blog2,
     blog3,
     discountBg,
+    logo,
+    errorImg,
+    insta1,
+    insta2,
+    insta3,
+    insta4,
+    insta5,
+    insta6,
+    payment1,
+    payment2,
+    payment3,
+    payment4,
 };

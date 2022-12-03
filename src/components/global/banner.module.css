@@ -1,0 +1,64 @@
+.topBanner {
+  height: 60vh;
+  /* background: url(../img/top-banner.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.4;
+}
+
+.bannerTitle h2 {
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.bannerTitle nav ol {
+  background-color: transparent;
+  justify-content: center;
+}
+
+.bannerTitle .breadcrumbItem a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bannerTitle {
+  z-index: 111;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bannerTitle .breadcrumbItem.active {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.bannerTitle .breadcrumbItem+.breadcrumbItem::before {
+  color: #fff;
+}
