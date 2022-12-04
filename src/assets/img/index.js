@@ -8,7 +8,7 @@ import aboutSm1 from './about-sm-1.jpg';
 import aboutSm2 from './about-sm-2.jpg';
 import aboutSm from './about-sm.jpg';
 import about from './about.png';
-import qoute from './bdq-qoute.png';
+import { default as bdQuote, default as qoute } from './bdq-qoute.png';
 import blog1 from './blog-1.jpg';
 import blog2 from './blog-2.jpg';
 import blog3 from './blog-3.jpg';
@@ -47,11 +47,12 @@ import bannerBg from './top-banner.jpg';
 
 
 export {
+    bdQuote,
+    aboutAuthor,
     logo2,
     bannerBg,
     heroImg,
     errImg,
-    aboutAuthor,
     aboutLg,
     aboutLg1,
     aboutLg2,

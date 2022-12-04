@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { AiOutlineHeart, AiOutlineSearch, AiOutlineShopping } from 'react-icons/ai';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { logo } from '../../assets/img';
 import style from './header.module.css';
 
@@ -33,23 +33,23 @@ function Header() {
               id="basic-nav-dropdown"
             >
               <NavDropdown.Item>
-                <Link to="/">Home</Link>
+                <NavLink to="/">Home</NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/home2">Home 2</Link>
+                <NavLink to="/home2">Home 2</NavLink>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to="/home3">Home 3</Link>
+                <NavLink to="/home3">Home 3</NavLink>
               </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link>
-              <Link to="/shop">Shop</Link>
+              <NavLink to="/shop">Shop</NavLink>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/blog">Blog</Link>
+              <NavLink to="/blog">Blog</NavLink>
             </Nav.Link>
             <Nav.Link>
-              <Link to="/contact">Contact</Link>
+              <NavLink to="/contact">Contact</NavLink>
             </Nav.Link>
           </Nav>
 

@@ -1,0 +1,35 @@
+.blogDescQuotedBox {
+  padding: 30px;
+  background: #f8f8f8;
+  display: flex;
+}
+
+.bdqQuoteImg {
+  width: 90px;
+}
+
+.bdqLeft {
+  margin-right: 30px;
+}
+
+.bdqText {
+  font-family: "Darker Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.bdqName {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+.homeBlogDesc {
+  display: -webkit-box;
+  -webkit-line-clamp: unset;
+}

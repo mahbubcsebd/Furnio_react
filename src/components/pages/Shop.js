@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { v4 as uuidv4 } from 'uuid';
 import products from '../../constants/productsData';
 import Banner from '../global/Banner';
+import PaginationBox from '../global/PaginationBox';
 import SingleProduct from '../global/SingleProduct';
 import Filter from '../shop/Filter';
 import Sidebar from '../shop/Sidebar';
@@ -44,6 +45,11 @@ const Shop = () => {
                   <Sidebar/>
               </div>
             </Col>
+          </Row>
+          <Row>
+            <div className="paginationBox">
+              <PaginationBox/>
+            </div>
           </Row>
         </Container>
       </div>

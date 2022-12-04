@@ -1,0 +1,51 @@
+.aboutAuthorBox {
+  text-align: center;
+  margin-top: 50px;
+  border: 1px solid #ddd;
+}
+
+.aboutAuthorImg {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.aboutAuthorName {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #03221f;
+  margin-bottom: 20px;
+}
+
+.aboutAuthorText {
+  color: #424242;
+}
+
+.aboutAuthorSocial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+}
+
+.aboutAuthorSocial li {
+  margin-right: 15px;
+}
+
+.aboutAuthorSocial li:last-child {
+  margin-right: 0;
+}
+
+.aboutAuthorTop {
+  padding: 20px;
+}
+
+.aboutAuthorSocial li a:hover {
+  color: var(--primaryColor);
+}

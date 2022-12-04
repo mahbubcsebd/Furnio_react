@@ -1,8 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { v4 as uuidv4 } from 'uuid';
 import blogs from '../../constants/blogData';
-import SingleBlog from '../global/SingleBlog';
+import SingleBlog from '../blog/SingleBlog';
 
 const HomeBlog = () => {
   return (
@@ -13,7 +12,7 @@ const HomeBlog = () => {
           {blogs.map((item) => (
             <Col
               md={4}
-              key={uuidv4}
+              key={item.id}
             >
               <SingleBlog
                 id={item.id}
@@ -21,6 +20,7 @@ const HomeBlog = () => {
                 date={item.date}
                 author={item.author}
                 title={item.title}
+                body={item.body}
               />
             </Col>
           ))}
